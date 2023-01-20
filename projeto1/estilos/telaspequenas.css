@@ -28,7 +28,7 @@ header h1{
 }
 header nav{
     text-align: center;
-    
+    margin-left: 50px;
 }
 header>nav>a{
     
@@ -103,5 +103,5 @@ footer{
 }
 footer img{
     width: 45px;
-    padding: 7px;
+    padding: 4px;
 }
