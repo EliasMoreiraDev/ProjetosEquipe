@@ -6,3 +6,19 @@
     padding: 0px;
 
 }
+body{
+    
+    background-image: linear-gradient(95deg, #473ADE, #387aca);
+}
+#titulo-login{
+    color: white;
+}
+#caixa-login{
+    background-color: white;
+    width: 500px;
+}
+input[type = text]{
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+}
