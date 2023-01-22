@@ -19,12 +19,12 @@ body{
 #titulo-login{
     color: #473ADE;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 35px;
+    padding-bottom: 20px;
     font-weight: lighter;
-    font-size: 25pt;
+    font-size: 30pt;
 
-    font-family: 'Righteous';
+    font-family: 'Righteous', cursive;
 }
 
 main{
@@ -46,7 +46,7 @@ main{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.426);
 
     transform: translate(-50%,-50%);
-    transition: width 0.3s, hight .3s;
+    transition: width 0.3s, height .3s;
 
     transition-timing-function: ease;
     
@@ -56,13 +56,14 @@ main{
 
     background-color: white;
     width: 370px;
-    height: 300px;
+    height: 350px;
     
-
+    display: block;
+    margin: auto;
     padding-bottom: 30px;
     border-radius: 10px;
 
-    box-shadow: 1px 5px 7px rgba(0, 0, 0, 0.426);
+    box-shadow: 1px 5px 7px rgba(0, 0, 0, 0.064);
 }
 .campo > span{
     font-size: 2em;  
@@ -70,6 +71,8 @@ main{
     padding-left: 9px;
 }
 #nome, #senha{
+    display: block;
+    margin: auto;
     width: 250px;
     height: 30px;
     padding: 5px;
@@ -81,7 +84,9 @@ main{
 }
 .campo{
     
-    margin: 20px 0px 20px 10%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
     width: 310px;
     
     border-radius: 5px;
@@ -94,8 +99,10 @@ form > input[type = submit]{
     display: block;
     font-size: 1em;
     width: 80%;
-    height: 40px;
-    margin-left: 44px;
+    height: 45px;
+
+    margin: auto;
+    
 
     background-color: #4c5ddf;
     color: white;
@@ -106,6 +113,8 @@ form > input[type = submit]{
     border-radius: 5px;
 
     cursor: pointer;
+
+    
 }
 form > input[type = submit]:hover{
     background-color: #4553bf;
@@ -117,7 +126,7 @@ form > #botao{
     height: 40px;
     
 
-    margin-left: 64px;
+    margin: auto;
 
     background-color: #387aca;
     color: white;

@@ -75,13 +75,17 @@ section ul li{
     
     line-height: 30px;
 }
+main{
+    height: 500px;
+}
 footer{
     display: flex;
     align-items: center;
     justify-content: center;
 
-    background-color: #3a4db4;
     margin: 0;
+
+    border-top: 2px solid white;
 
     color: white;
     font-size: 15pt;
