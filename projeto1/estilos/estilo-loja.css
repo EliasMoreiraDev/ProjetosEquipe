@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-image: linear-gradient(-95deg, #473ADE, #387aca);
+}
+
+header h1{
+    font-family: 'Righteous', cursive;
+    font-size: 3em;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.11), transparent);
+    padding: 10px 0px 10px 30px;
+    color: #b9c5fd;
+}
+
+span{
+    color: #6889ff;
+}
+
+
+main{
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.185);
+    margin: 20px 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.856);
+}
+
+section>h1{
+    display: inline;
+}
+section>p{
+    display: inline;
+}
