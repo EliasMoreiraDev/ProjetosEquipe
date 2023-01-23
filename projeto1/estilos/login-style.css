@@ -4,6 +4,7 @@
 
     margin: 0;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 body{
@@ -99,9 +100,11 @@ main{
 }
 #enviar{
     display: block;
-    font-size: 1em;
+    font-size: 1.2em;
+
+    
     width: 80%;
-    height: 45px;
+    height: 35px;
 
 
     margin: auto;
@@ -119,18 +122,19 @@ main{
 
     cursor: pointer;
 
-    
-}
-#enviar a{ 
+    text-align: center;
     text-decoration: none;
     color: white;
+    padding-top: 11px;
+    
 }
+
 #enviar:hover{
     background-color: #4553bf;
 }
 form > #botao{
     display: block;
-    font-size: 1em;
+    font-size: 1.2em;
     width: 80%;
     height: 45px;
 
