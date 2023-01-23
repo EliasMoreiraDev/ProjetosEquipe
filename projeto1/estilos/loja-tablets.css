@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+#conteiner-prod{
+    display: block;
+    width: 645px;
+    
+    margin: auto;
+    margin-top: 50px;
+}
+.produtos{
+    display: inline-block;
+
+    background-color: white;
+
+    margin: 6px;
+    width: 200px;
+    height: 300px;
+    
+    border-radius: 5px;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.216);
+}
