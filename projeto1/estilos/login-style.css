@@ -69,6 +69,7 @@ main{
     font-size: 2em;  
     padding: 5px;
     padding-left: 9px;
+    color: white;
 }
 #nome, #senha{
     display: block;
@@ -88,20 +89,24 @@ main{
     margin-bottom: 20px;
     margin-top: 20px;
     width: 310px;
+
+    
     
     border-radius: 5px;
     background-color: #387aca;
 
     box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.281);
 }
-form > input[type = submit]{
-    
+#enviar{
     display: block;
     font-size: 1em;
     width: 80%;
     height: 45px;
 
+
     margin: auto;
+
+    box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.281);
     
 
     background-color: #4c5ddf;
@@ -116,15 +121,20 @@ form > input[type = submit]{
 
     
 }
-form > input[type = submit]:hover{
+#enviar a{ 
+    text-decoration: none;
+    color: white;
+}
+#enviar:hover{
     background-color: #4553bf;
 }
 form > #botao{
     display: block;
     font-size: 1em;
-    width: 70%;
-    height: 40px;
-    
+    width: 80%;
+    height: 45px;
+
+    box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.281);
 
     margin: auto;
 
@@ -137,7 +147,7 @@ form > #botao{
     cursor: pointer;
 }
 form > #botao:hover{
-    background-color: #336aad;
+    background-color: #2866b1;
  
 }
 form > a.botao > span{
