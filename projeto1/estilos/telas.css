@@ -88,7 +88,7 @@ section ul li{
     line-height: 30px;
 }
 main{
-    height: 500px;
+    height: 100vh;
 }
 footer{
     display: flex;
@@ -101,8 +101,13 @@ footer{
     font-size: 15pt;
 
     height: 55px;
-    bottom: 0;
-    position: fixed;
+    
+
+
+
+
+
+
     width: 100%;
 }
 
